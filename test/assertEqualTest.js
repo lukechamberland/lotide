@@ -1,4 +1,4 @@
-let assertEqual = require('../assertEqual')
+let assertEqual = require('../assertEqual');
 
 describe("#assertEqual", () => {
   it("returns true for hello!, hello!", () => {

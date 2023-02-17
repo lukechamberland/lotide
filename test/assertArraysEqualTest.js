@@ -1,5 +1,5 @@
-let assertArraysEqual = require('../assertArraysEqual')
-let eqArrays = require('../eqArrays')
+let assertArraysEqual = require('../assertArraysEqual');
+let eqArrays = require('../eqArrays');
 
 describe("#assertArraysEqual", () => {
   it("returns true for [1, 2, 3], [1, 2, 3]", () => {
