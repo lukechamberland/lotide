@@ -14,8 +14,6 @@ const eqArrays = function(first, second) {
   return true;
 }
 
-const eqArrays2 = require("./eqArrays");
-
 const assertArraysEqual = function(actual, expected) {
   if (eqArrays(actual, expected)) {
     console.log(`Assertion Passed: ${actual} === ${expected}`);
@@ -36,5 +34,5 @@ const middle = function(array) {
     return [array[Math.floor(array.length / 2)]];
   }
 };
-console.log(middle([5, 8, 2, 3, 9]))
-module.exports = middle
+
+module.exports = middle;
