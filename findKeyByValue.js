@@ -8,4 +8,4 @@ const findKeyByValue = function(object, value) {
   }
 };
 
-module.exports = findKeyByValue
+module.exports = findKeyByValue;
