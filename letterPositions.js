@@ -35,3 +35,5 @@ const letterPositions = function(finalSentance) {
   });
   return results;
 };
+
+module.exports = letterPositions
