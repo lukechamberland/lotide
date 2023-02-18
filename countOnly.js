@@ -33,4 +33,4 @@ const firstNames = [
   "Joe"
 ];
 
-module.exports = countOnly
+module.exports = countOnly;
