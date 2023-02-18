@@ -38,4 +38,4 @@ const flatten = function(array) {
   return secondArray;
 };
 
-module.exports = flatten
+module.exports = flatten;
