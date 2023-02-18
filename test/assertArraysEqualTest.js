@@ -1,4 +1,4 @@
-let assertArraysEqual = require('../assertArraysEqual');
+const assertArraysEqual = require('../assertArraysEqual');
 let eqArrays = require('../eqArrays');
 
 describe("#assertArraysEqual", () => {
