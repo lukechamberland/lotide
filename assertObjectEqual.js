@@ -2,7 +2,6 @@ const eqObjects = require("./eqObjects");
 
 const assertObjectEqual = function(object1, object2) {
   const inspect = require('util').inspect;
-  // uses eqObjects function to check if they are equal or not, and uses string interpolation to log final output to the console
   if (eqObjects(object1, object2)) {
     console.log(`Assertion passed: ${inspect(object1)} === ${inspect(object2)}`);
   } else {
