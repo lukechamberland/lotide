@@ -1,5 +1,4 @@
 const middle = function(array) {
-  // makes sure the array length is at least 3
   if (array.length <= 2) {
     return [];
     // if the array length is even returns the middle 2 numbers
