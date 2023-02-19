@@ -1,11 +1,9 @@
 const eqArrays = require("./eqArrays");
 
 const eqObjects = function(object1, object2) {
-  // returns false if the argument key lengths are not equal
   if (Object.keys(object1).length !== Object.keys(object2).length) {
     return false;
   }
-  
   // loops through the first argument and returns false/true or the object keys if the statement is correct for the given arguments
   for (let key in object1) {
     if (Array.isArray(object1[key]) && Array.isArray(object2[key])) {
