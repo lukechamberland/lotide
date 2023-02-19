@@ -1,7 +1,5 @@
 const flatten = function(array) {
-  // final results
   let secondArray = [];
-  // loops through the given array
   array.forEach(function(firstElement) {
     // if the element is an array push each element to secondArray
     if (Array.isArray(firstElement)) {
