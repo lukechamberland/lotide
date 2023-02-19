@@ -1,5 +1,4 @@
 const eqArrays = function(first, second) {
-  // if argument lengths are not equal returns false
   if (first.length !== second.length) {
     return false;
   }
